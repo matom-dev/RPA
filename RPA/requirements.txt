@@ -1,0 +1,4 @@
+1. Viết code python thực hiện việc backup file database(.sql, .sqlite3)lúc 00:00 AM là 12 giờ đêm (nửa đêm) hằng ngày và gửi mail thông báo việc backup thành công hoặc thất bại. Nghĩa là kiểm tra file database có đuôi là .sql hoặc .sqlite3 để copy qua folder backup.
+2. Cấu hình thông tin mail(tên mail người gửi, mật khẩu ứng dụng, tên mail người nhận) vào file môi trường .env
+3. Push(file code, file requirements.txt) lên repo github public và nộp link github public vào classroom
+Lưu ý: Tuyệt đối không push file .env chứa thông tin mail(tên mail người gửi, mật khẩu ứng dụng, tên mail người nhận) trong file .env lên github
